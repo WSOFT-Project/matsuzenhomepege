@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]matsuzenのホームページ</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/matsuzen_homepage.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <main role="main">
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "";
+}
+
+<div class="container"> 
+<div class="row">
+        <h1 class="display-4 text-center" >matsuzenのホームページ</h1>
+        <div class="col-3" style="padding-top:30px;">
+        <!-- 左の空間 -->
+            <img class="text-center img-fluid" src="~/matsuzen-top.png" />
+
+            <p class="text-left">
+                matsuzen (マツゼン)<br />
+                生年月日 2004年10月31日<br />
+                生息地 仮想（と）現実<br />
+            </p>
+    </div>
+        <div class="col" style="padding-top:30px;">
+        <!--まんなか-->
+            <h3>
+                やぁ。
+            </h3><hr />
+            <p>
+               2021/12/25～In the VRchat matsuzen組のNo1<br/>
+               <br/>
+               音楽作ったり音ゲーやFPSしたりアニメ観たり3Dモデルやゲーム作ったりたまに動画作ったりプログラミングしたり色々なんでもして生きてる人。 <br/>
+               最近ずっとシージしてる。<br/>
+               <br />
+               <br />
+               WSTubeの発案者。AliceProjectのオーナーでありAliceたんの生みの親である。VRChatter。
+             </p>
+             <h5>
+                 matsuzenが覚えてる限りの自分の歴史
+             </h5><hr />
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <td>2004.10</td>
+                        <td>日本で生まれる。</td>
+                    </tr>
+                    <tr>
+                        <td>2018.4?</td>
+                        <td>たいと出会う。</td>
+                    </tr>
+                    <tr>
+                        <td>2018.9</td>
+                        <td>YoutubeにてMAD動画を投稿し始める。</td>
+                    </tr>
+                    <tr>
+                        <td>2018.10</td>
+                        <td>オープンワールドMMO「nextWorld」を使用したゲーム、「トリガーガールズ（仮）」を考案、たいと共に制作を開始する。</td>
+                    </tr>
+                    <tr>
+                        <td>2019.3</td>
+                        <td>WSTubeシステムを考案、その開発の為たいと某校PC部デジタル映像研究室を開設。</td>
+                    </tr>
+                    <tr>
+                        <td>2021.6</td>
+                        <td>AliceScriptの開発開始。Aliceたんを生み出しプロジェクトオーナーに任命される。</td>
+                    </tr>
+                    <tr>
+                        <td>2021.12</td>
+                        <td>VRChatを始める。</td>
+                    </tr>
+                    <tr>
+                        <td>2022.5</td>
+                        <td>この頃から仮想世界の自分に精神が浸食され始める。</td>
+                    </tr>
+                    <tr>
+                        <td>2022.10</td>
+                        <td>メタバースプラットフォームVRChatにて、ワールド「終末世界3.0」制作</td>
+                    </tr>
+                    <tr>
+                        <td>2023.4</td>
+                        <td>関西の美術系大学に入学</td>
+                    </tr>
+                    <tr>
+                        <td>now</td>
+                        <td>多分生きてる。</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+
+    <div class="col-3" style="padding-top:30px;">
+        <!-- Twitterのタイムライン -->
+        <a class="twitter-timeline" data-height="700" data-theme="light" href="https://twitter.com/matsuzen_VR?ref_src=twsrc%5Etfw">Tweets by matsuzen_VR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+
+</div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://wsoft.ws/main.js"></script>
+</body>
+</html>
